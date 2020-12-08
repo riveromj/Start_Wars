@@ -1,0 +1,25 @@
+.row{  
+     
+     flex-wrap: nowrap;
+     overflow-x:auto; 
+}
+.card{
+    width: 400px;
+    margin:auto;
+    margin-top: 1%;
+    margin-right: 15px;
+           
+}
+.bottom-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#heart{
+    color: yellow;
+    border-color:yellow;
+}
+#heart:hover{
+    color: yellow;
+    border-color:yellow;
+}
