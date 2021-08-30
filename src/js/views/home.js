@@ -10,7 +10,7 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 	//console.log(store, "home");
 	return (
-		<div className="content">
+		<div className="container">
 			<h1>Characters</h1>
 			<div className="row">
 				{store.people.map((character, index) => {
